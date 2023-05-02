@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: onpoint_id
+    database: weather_data
+    tables:
+      - name: forecast_day
+      - name: history_day
